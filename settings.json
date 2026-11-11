@@ -1,0 +1,368 @@
+{
+    "explorer.confirmDragAndDrop": false,
+    "kotlin.java.home": "/usr/lib/jvm/java-21-openjdk",
+    "workbench.colorTheme": "GitHub Dark High Contrast",
+    "workbench.preferredDarkColorTheme": "GitHub Dark Default",
+    "workbench.preferredLightColorTheme": "GitHub Light Default",
+    "workbench.iconTheme": "catppuccin-mocha",
+    "workbench.colorCustomizations": {
+        "[Catppuccin Mocha]": {
+            "focusBorder": "#cba6f7",
+            "contrastBorder": "#585b70",
+            "panel.border": "#585b70",
+            "sideBar.border": "#585b70",
+            "activityBar.border": "#585b70",
+            "editorGroup.border": "#585b70",
+            "editorGroupHeader.tabsBorder": "#585b70",
+            "tab.border": "#45475a",
+            "tab.activeBorderTop": "#cba6f7",
+            "titleBar.border": "#585b70",
+            "statusBar.border": "#585b70",
+            "sash.hoverBorder": "#cba6f7",
+            "terminal.border": "#585b70"
+        }
+    },
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": false,
+    "window.menuBarVisibility": "toggle",
+    "workbench.layoutControl.enabled": false,
+    "workbench.activityBar.location": "top",
+    "editor.fontSize": 15,
+    "terminal.integrated.fontSize": 14,
+    "window.zoomLevel": 0.5,
+    "telemetry.telemetryLevel": "off",
+    "redhat.telemetry.enabled": false,
+    "vim.useSystemClipboard": true,
+    "vim.smartcase": true,
+    "vim.ignorecase": true,
+    "vim.leader": "<space>",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "<leader>"
+            ],
+            "commands": [
+                "workbench.action.quickOpen"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                ","
+            ],
+            "commands": [
+                "workbench.action.showAllEditors"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "/"
+            ],
+            "commands": [
+                "workbench.action.findInFiles"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "e"
+            ],
+            "commands": [
+                "workbench.view.explorer"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "f",
+                "f"
+            ],
+            "commands": [
+                "workbench.action.quickOpen"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "f",
+                "t"
+            ],
+            "commands": [
+                "workbench.action.terminal.toggleTerminal"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "s",
+                "s"
+            ],
+            "commands": [
+                "workbench.action.gotoSymbol"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "s",
+                "S"
+            ],
+            "commands": [
+                "workbench.action.showAllSymbols"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "s",
+                "d"
+            ],
+            "commands": [
+                "workbench.actions.view.problems"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "x",
+                "x"
+            ],
+            "commands": [
+                "workbench.actions.view.problems"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "c",
+                "a"
+            ],
+            "commands": [
+                "editor.action.quickFix"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "c",
+                "r"
+            ],
+            "commands": [
+                "editor.action.rename"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "c",
+                "f"
+            ],
+            "commands": [
+                "editor.action.formatDocument"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "b",
+                "d"
+            ],
+            "commands": [
+                "workbench.action.closeActiveEditor"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "b",
+                "o"
+            ],
+            "commands": [
+                "workbench.action.closeOtherEditors"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "g",
+                "g"
+            ],
+            "commands": [
+                "workbench.view.scm"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "u",
+                "w"
+            ],
+            "commands": [
+                "editor.action.toggleWordWrap"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "w",
+                "z"
+            ],
+            "commands": [
+                "workbench.action.toggleMaximizeEditorGroup"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "w",
+                "="
+            ],
+            "commands": [
+                "workbench.action.evenEditorWidths"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "a",
+                "a"
+            ],
+            "commands": [
+                "workbench.action.chat.open"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "q",
+                "q"
+            ],
+            "commands": [
+                "workbench.action.quit"
+            ]
+        },
+        {
+            "before": [
+                "H"
+            ],
+            "commands": [
+                "workbench.action.previousEditor"
+            ]
+        },
+        {
+            "before": [
+                "L"
+            ],
+            "commands": [
+                "workbench.action.nextEditor"
+            ]
+        },
+        {
+            "before": [
+                "]",
+                "d"
+            ],
+            "commands": [
+                "editor.action.marker.next"
+            ]
+        },
+        {
+            "before": [
+                "[",
+                "d"
+            ],
+            "commands": [
+                "editor.action.marker.prev"
+            ]
+        },
+        {
+            "before": [
+                "]",
+                "h"
+            ],
+            "commands": [
+                "workbench.action.editor.nextChange"
+            ]
+        },
+        {
+            "before": [
+                "[",
+                "h"
+            ],
+            "commands": [
+                "workbench.action.editor.previousChange"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "r"
+            ],
+            "commands": [
+                "editor.action.goToReferences"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "I"
+            ],
+            "commands": [
+                "editor.action.goToImplementation"
+            ]
+        },
+        {
+            "before": [
+                "<up>"
+            ],
+            "after": []
+        },
+        {
+            "before": [
+                "<down>"
+            ],
+            "after": []
+        },
+        {
+            "before": [
+                "<left>"
+            ],
+            "after": []
+        },
+        {
+            "before": [
+                "<right>"
+            ],
+            "after": []
+        }
+    ],
+    "editor.lineNumbers": "relative",
+    "editor.cursorSurroundingLines": 8,
+    "editor.cursorBlinking": "solid",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.overviewRulerLanes": 0,
+    "editor.guides.indentation": true,
+    "editor.inlayHints.enabled": "on",
+    "editor.formatOnSave": true,
+    "editor.wordWrap": "on",
+    "editor.renderWhitespace": "boundary",
+    "editor.rulers": [
+        100
+    ],
+    "files.autoSave": "onFocusChange",
+    "workbench.editor.showTabs": "multiple",
+    "[latex]": {
+        "editor.wordWrap": "on",
+        "editor.formatOnSave": false
+    },
+    "[markdown]": {
+        "editor.wordWrap": "on",
+        "editor.formatOnSave": false
+    },
+    "[lua]": {
+        "editor.tabSize": 2
+    }
+}
